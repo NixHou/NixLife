@@ -150,12 +150,12 @@ function pipeline() {
           tree.children.splice(index, 0, {
             type: 'element',
             tagName: 'div',
-            properties: { className: ['tertiarynav component'] },
-            children: [{
-              type: 'element',
-              tagName: 'div',
-              properties: { className: ['component-content'] },
-            }]
+            properties: { className: ['component-content'] },
+            // children: [{
+            //   type: 'element',
+            //   tagName: 'div',
+            //   properties: { className: ['tertiarynav component'] },
+            // }]
           })
           index++;
         }
